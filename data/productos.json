@@ -1,0 +1,215 @@
+[
+   
+    {
+        "id": "Medialunas",
+        "titulo": "Medialunas",
+        "imagen": "./img/Medialunasx3.jpg",
+        "categoria": {
+            "nombre": "Desayunos",
+            "id": "Desayunos"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "Donout",
+        "titulo": "Donout",
+        "imagen": "./img/DONOUT.jpg",
+        "categoria": {
+            "nombre": "Desayunos",
+            "id": "Desayunos"
+        },
+        "precio": 2900
+    },
+    {
+        "id": "AlfajordeChoco",
+        "titulo": "Alfajor de Choco",
+        "imagen": "./img/ALf_Choco.jpg",
+        "categoria": {
+            "nombre": "Desayunos",
+            "id": "Desayunos"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "AlfajordeMaicena",
+        "titulo": "Alfajor de Maicena",
+        "imagen": "./img/ALF_Maicena.jpg",
+        "categoria": {
+            "nombre": "Desayunos",
+            "id": "Desayunos"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "Tostadas",
+        "titulo": "Tostadas",
+        "imagen": "./img/tostadas.jpg",
+        "categoria": {
+            "nombre": "Desayunos",
+            "id": "Desayunos"
+        },
+        "precio": 3500
+    },
+    {
+        "id": "Muffin",
+        "titulo": "Muffin",
+        "imagen": "./img/MuffinDDL-300x300.jpg",
+        "categoria": {
+            "nombre": "Desayunos",
+            "id": "Desayunos"
+        },
+        "precio": 1500
+    },
+    {
+        "id": "PandeChoco",
+        "titulo": "Pan de Choco",
+        "imagen": "./img/PandeChoco-1-300x300.jpg",
+        "categoria": {
+            "nombre": "Desayunos",
+            "id": "Desayunos"
+        },
+        "precio": 2500
+    },
+    
+    {
+        "id": "Frola",
+        "titulo": "Frola",
+        "imagen": "./img/PASTAFROLA-1-300x300.jpg",
+        "categoria": {
+            "nombre": "Meriendas",
+            "id": "Meriendas"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "Brownie",
+        "titulo": "Brownie",
+        "imagen": "./img/BROWNIE-1-300x300.jpg",
+        "categoria": {
+            "nombre": "Meriendas",
+            "id": "Meriendas"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "BagelTresQuesos",
+        "titulo": "Bagel Tres Quesos",
+        "imagen": "./img/BAGEL_JyQ.jpg",
+        "categoria": {
+            "nombre": "Meriendas",
+            "id": "Meriendas"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "BudinFrutosSecos",
+        "titulo": "Budin Frutos Secos",
+        "imagen": "./img/BUDIN_Frutossecos-1-300x300.jpg",
+        "categoria": {
+            "nombre": "Meriendas",
+            "id": "Meriendas"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "Croquet",
+        "titulo": "Croque",
+        "imagen": "./img/CroqueMonsieur-300x300.jpg",
+        "categoria": {
+            "nombre": "Meriendas",
+            "id": "Meriendas"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "BudinBananayDDL",
+        "titulo": "Budin Banana y DDL",
+        "imagen": "./img/BUDIN_BananaDDL-300x300.jpg",
+        "categoria": {
+            "nombre": "Meriendas",
+            "id": "Meriendas"
+        },
+        "precio": 2500
+    },
+   
+    {
+        "id": "Hamburguesa",
+        "titulo": "Hamburguesa",
+        "imagen": "./img/Almuerzo.jpg",
+        "categoria": {
+            "nombre": "Almuerzos",
+            "id": "Almuerzos"
+        },
+        "precio": 5500
+    },
+    {
+        "id": "EnsaladaCesar",
+        "titulo": "Ensalada Cesar",
+        "imagen": "./img/Ensalada-Cesar-cortada-600x443-1-300x300.jpg",
+        "categoria": {
+            "nombre": "Almuerzos",
+            "id": "Almuerzos"
+        },
+        "precio": 4500
+    },
+    {
+        "id": "EnsaladaMixVegetales",
+        "titulo": "Ensalada Mix vegetales",
+        "imagen": "./img/EnsaladaMixde-Veg.jpg",
+        "categoria": {
+            "nombre": "Almuerzos",
+            "id": "Almuerzos"
+        },
+        "precio": 4500
+    },
+    {
+        "id": "Empanadas",
+        "titulo": "Empanadas",
+        "imagen": "./img/EMPANADAS-1-300x300.jpg",
+        "categoria": {
+            "nombre": "Almuerzos",
+            "id": "Almuerzos"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "PaniniJyQ",
+        "titulo": "Panini J y Q",
+        "imagen": "./img/PAniniJQTH.jpg",
+        "categoria": {
+            "nombre": "Almuerzos",
+            "id": "Almuerzos"
+        },
+        "precio": 3500
+    },
+    {
+        "id": "Pebete",
+        "titulo": "Pebete",
+        "imagen": "./img/pebete.jpg",
+        "categoria": {
+            "nombre": "Almuerzos",
+            "id": "Almuerzos"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "Sandwich",
+        "titulo": "Sandwich",
+        "imagen": "./img/TrianguloPollo.jpg",
+        "categoria": {
+            "nombre": "Almuerzos",
+            "id": "Almuerzos"
+        },
+        "precio": 3000
+    },
+    {
+        "id": "Bagel",
+        "titulo": "Bagel",
+        "imagen": "./img/BAGEL_JyQ.jpg",
+        "categoria": {
+            "nombre": "Almuerzos",
+            "id": "Almuerzos"
+        },
+        "precio": 3000
+    }
+]

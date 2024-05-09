@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TiendaMia</title>
+    <!-- link de iconos de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- mi css -->
+    <link rel="stylesheet" href="./css/estilo.css">
+
+</head>
+
+<body>
+    <!-- Resolucion Pc -->
+    <header class="navbar bg-body-tertiary ">
+        <div class=" primerNavbar container-fluid">
+            <img class="logo" src="./img/logo.PNG" alt="logo pagina">
+            <form class="d-flex" role="search">
+                <input id="inputPC" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <i class="bi bi-search"></i>
+            </form>
+            <button id="btn-ingresar" class="btn btn-outline-secondary" type="submit">Ingresar</button>
+        </div>
+    </header>
+    <!-- Resolucion table-celu -->
+    <div class="vision-computadora">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary pb-4">
+
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./carrito.html">
+                    <i class="bi bi-cart4 logo-titulo"></i><span id="numeroNav" class="numero"></span></a>
+
+                <form class="d-flex" role="search">
+                    <input id="inputTa" class="form-control me-2" type="search" placeholder="Buscar"
+                        aria-label="Search">
+                    <i class="bi bi-search"></i>
+                </form>
+
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a id="Home" class="nav-link active  boton-categorias" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="Almuerzos" class="nav-link active  boton-categorias" aria-current="page"
+                                href="#">Almuerzos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="Desayunos" class="nav-link active boton-categorias" aria-current="page"
+                                href="#">Desayunos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="Meriendas" class="nav-link active  boton-categorias" aria-current="page"
+                                href="#">Meriendas</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="wrapper">
+
+        <aside>
+            <div>
+                <h1 class="logo-titulo">TiendaMia</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="Home" class="boton-menu boton-categorias">Home</button>
+                    </li>
+                    <li>
+                        <button id="Desayunos" class="boton-menu boton-categorias ">Desayunos</button>
+                    </li>
+                    <li>
+                        <button id="Almuerzos" class="boton-menu boton-categorias ">Almuerzos</button>
+                    </li>
+                    <li>
+                        <button id="Meriendas" class="boton-menu boton-categorias">Meriendas</button>
+                    </li>
+
+                    <li>
+                        <a class="boton-menu boton-carrito " href="./carrito.html">
+                            <i class="bi bi-cart4"></i>Carrito <span id="numeroAside" class="numero">0</span></a>
+                    </li>
+                </ul>
+            </nav>
+
+            <footer>
+                <div class="divRedesSociales">
+                    <p class="titulo-redes">Redes Sociales</p>
+                    <ul class="ulFooter">
+                        <li><a href="https://www.facebook.com/Meta" target="_blank"><i
+                                    class="bi bi-facebook icono-negro"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i
+                                    class="bi bi-instagram icono-negro"></i>
+                        </li>
+                        <li><a href="https://twitter.com/?lang=es" target="_blank"><i
+                                    class="bi bi-twitter-x icono-negro"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </aside>
+
+        <main>
+            <h2 id="titulo-principal" class="titulo-pricipal">HOME</h2>
+
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- tarjetas prodcutos, se completa con js -->
+
+            </div>
+        </main>
+
+        <section id="section" class="card text-center mb-2 mx-4 ">
+            <div class="card-header">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">TiendaMia</h5>
+                <a href="./carrito.html" class="btn btn-outline-warning">Ir al Carrito</a>
+                <a href="#" class="btn btn-outline-warning">Ir al Menu</a>
+            </div>
+            <div class="card-footer text-body-secondary">
+            </div>
+        </section>
+
+
+    </div>
+    <!-- boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- sweetalert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- micodigo js -->
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
